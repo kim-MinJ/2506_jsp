@@ -14,7 +14,7 @@
 이것은 서버가 forward 동작시키는 것이기 때문입니다.
 </p>
 <%
-// 참고 : 서블릿이 받은 request 를 jsp 로 전달하기 위해 사용합니다.
+// 참고 : 서블릿이 받은 request 를 jsp 로 전달하기 위해 사용합니다. ()
 // 			ㄴ request에 data(애트리뷰트, 파라미터)를 저장해서 보낼 수 있습니다.
 //	1) response.jsp 비교
 //RequestDispatcher dispatcher = request.getRequestDispatcher("test.jsp");

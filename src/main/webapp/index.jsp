@@ -19,7 +19,8 @@
 <li><a href="response.jsp">response.jsp - response 객체 메소드</a></li>
 <li><a href="forward.jsp">1) forward.jsp - 요청을 forward(전달)하여 응답 생성</a></li>
 <li><a href="forward.jsp?name=choi&hobby=sport">2) forward.jsp - 파라미터 전달 확인</a></li>
-<li><a href="forward.jsp?name=choi&hobby=sport">3) forward.jsp - 요청 URL 'hello' 로 전달 </a></li>
+<li><a href="forward.jsp">3) forward.jsp - 요청 URL 'hello' 로 전달 </a></li>
+<li><a href="Bye">request 애트리뷰트 사용 예시 - 서블릿에서 jsp로 전달하기 </a></li>
 </ul>
 </body>
 </html>	
