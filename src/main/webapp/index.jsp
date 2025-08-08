@@ -10,7 +10,16 @@
 <h2>INDEX - 애플리케이션 시작페이지</h2>
 <hr>
 <ul>
-<li> <a href="test.jsp">테스트</a></li>
+<li> <a href="test.jsp">test.jsp 로 요청 보내기</a></li>
+<li> <a href="Hello">서블릿으로 요청 보내기</a></li>
+<li> <a href="hello">서블릿으로 요청 보내기</a></li>
+<li> <a href="request.jsp">request.jsp - request 객체 속성 가져오기</a></li>
+<li> <a href="request.jsp?name=kim&hobby=music">request.jsp - request 객체로 파라미터 보내기</a></li>
+<!-- URP 에 추가된 ?name=kim 은 쿼리문자열이고 request 객체의 파라미터로 저장됩니다. -->
+<li><a href="response.jsp">response.jsp - response 객체 메소드</a></li>
+<li><a href="forward.jsp">1) forward.jsp - 요청을 forward(전달)하여 응답 생성</a></li>
+<li><a href="forward.jsp?name=choi&hobby=sport">2) forward.jsp - 파라미터 전달 확인</a></li>
+<li><a href="forward.jsp?name=choi&hobby=sport">3) forward.jsp - 요청 URL 'hello' 로 전달 </a></li>
 </ul>
 </body>
-</html>
+</html>	
