@@ -10,6 +10,7 @@
 <body>
 <h2>BuyServlet 애트리뷰트 테스트</h2>
 <hr>
+<p> BuyServlet 에서 전달 받은 request 에서 데이터(애트리뷰트)를 가져오기 </p>
 <p>name 애트리뷰트 : <%= request.getAttribute("name") %></p>
 <p>age 애트리뷰트 : <%= request.getAttribute("age") %></p>
 <p>list 애트리뷰트 : <%= request.getAttribute("list") %></p>
@@ -21,7 +22,7 @@
 for(Integer o : (List<Integer>)request.getAttribute("list")) {
 %>
 <!-- 서버 아예 껏다가 다시 시작하면 오류 사라질 때 있음 -->
-
+	
 <li><%= o %></li>
 <%
 } //for end
